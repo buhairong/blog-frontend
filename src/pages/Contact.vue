@@ -132,9 +132,8 @@ export default {
           url: GRIDSOME_API_URL + "/contacts",
           data: this.form,
         });
-        window.alert("提交成功");
       } catch (error) {
-        window.alert("提交失败");
+        //
       }
     },
   },
